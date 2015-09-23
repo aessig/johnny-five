@@ -119,7 +119,7 @@
   },
   "optionalDependencies": {
     "firmata": ">=0.2.9",
-    "serialport": "latest"
+    "serialport-electron": "latest"
   },
   "devDependencies": {
     "async": "~0.9.0",
