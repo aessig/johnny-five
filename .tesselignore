@@ -2,7 +2,7 @@ assets/
 docs/
 eg/
 node_modules/firmata
-node_modules/serialport
+node_modules/serialport-electron
 test/
 tpl/
 util/
