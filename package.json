@@ -1,6 +1,6 @@
 {
-  "name": "johnny-five",
-  "description": "The JavaScript Robotics and Hardware Programming Framework. Use with: Arduino (all models), Electric Imp, Beagle Bone, Intel Galileo & Edison, Linino One, Pinoccio, Raspberry Pi, Spark Core, TI Launchpad and more!",
+  "name": "johnny-five-electron",
+  "description": "Temporary fork to support Electron (to be deprecated)",
   "version": "0.8.92",
   "homepage": "https://johnny-five.io",
   "author": {
@@ -96,10 +96,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/rwaldron/johnny-five.git"
+    "url": "git://github.com/aessig/johnny-five.git"
   },
   "bugs": {
-    "url": "https://github.com/rwaldron/johnny-five/issues"
+    "url": "https://github.com/aessig/johnny-five/issues"
   },
   "license": "MIT",
   "main": "lib/johnny-five",
