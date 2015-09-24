@@ -1,7 +1,8 @@
-# Johnny-Five
+# Johnny-Five-Electron
 ### The JavaScript Robotics Programming Framework
 
 Temporary fork to support Electron (to be deprecated)
+using serialport-electron (https://github.com/ddm/node-serialport) by @ddm
 
 <!--
 
