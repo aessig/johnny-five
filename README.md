@@ -1,58 +1,8 @@
 # Johnny-Five-Electron
 ### The JavaScript Robotics Programming Framework
 
-Temporary fork to support Electron (to be deprecated)
-using serialport-electron (https://github.com/ddm/node-serialport) by @ddm
+Temporary fork of [johnny-five](https://github.com/rwaldron/johnny-five) to support [Electron](https://github.com/atom/electron).
 
-<!--
+Using [serialport-electron](https://github.com/ddm/node-serialport) by [@ddm](https://github.com/ddm)
 
-    Hello!
-
-    Please don't edit this file!
-
-    If you'd like to make changes to the readme contents, please make them in the tpl/.readme.md file. If you'd like to add an example:
-
-    1. Add the file in `eg/`
-    2. Add a breadboard image in `docs/breadboards`
-    3. Add an entry to `tpl/programs.json`.
-    4. Generated the markdown with: `grunt examples`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--->
+This repository will be deprecated ASAP.
