@@ -29,7 +29,7 @@ node eg/led-matrix-HT16K33-16x8.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 board.on("ready", function() {

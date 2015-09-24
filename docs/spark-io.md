@@ -31,7 +31,7 @@ node eg/spark-io.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var Spark = require("spark-io");
 var board;
 

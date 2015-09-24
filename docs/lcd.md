@@ -29,7 +29,7 @@ node eg/lcd.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, lcd;
 
 board = new five.Board();

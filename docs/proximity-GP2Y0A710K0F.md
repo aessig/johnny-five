@@ -31,7 +31,7 @@ node eg/proximity-GP2Y0A710K0F.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 board.on("ready", function() {

@@ -31,7 +31,7 @@ node eg/servo-drive.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, wheels;
 
 board = new five.Board();

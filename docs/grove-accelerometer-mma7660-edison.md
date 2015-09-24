@@ -20,7 +20,7 @@ node eg/grove-accelerometer-mma7660-edison.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var Edison = require("edison-io");
 var board = new five.Board({
   io: new Edison()

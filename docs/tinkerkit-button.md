@@ -18,7 +18,7 @@ node eg/tinkerkit-button.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 new five.Board().on("ready", function() {
   // Attaching to an O* pin in a deviation from

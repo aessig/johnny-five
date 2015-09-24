@@ -1,4 +1,4 @@
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var Imp = require("imp-io");
 
 var board = new five.Board({

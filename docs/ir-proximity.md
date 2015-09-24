@@ -29,7 +29,7 @@ node eg/ir-proximity.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 var controller = process.argv[2] || "GP2Y0A02YK0F";
 

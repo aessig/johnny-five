@@ -29,7 +29,7 @@ node eg/esc-dualshock.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var dualShock = require("dualshock-controller");
 
 var board = new five.Board();

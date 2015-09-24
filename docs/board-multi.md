@@ -29,7 +29,7 @@ node eg/board-multi.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var boards = new five.Boards(["A", "B"]);
 
 // Create 2 board instances with IDs "A" & "B"

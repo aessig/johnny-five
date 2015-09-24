@@ -31,7 +31,7 @@ node eg/servo-continuous.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var keypress = require("keypress");
 
 keypress(process.stdin);

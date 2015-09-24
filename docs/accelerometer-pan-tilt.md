@@ -18,7 +18,7 @@ node eg/accelerometer-pan-tilt.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board;
 
 board = new five.Board();

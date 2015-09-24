@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var serialport = require("serialport");
+var serialport = require("serialport-electron");
 var SerialPort = serialport.SerialPort;
 var readline = serialport.parsers.readline;
 var optimist = require("optimist");

@@ -18,7 +18,7 @@ node eg/boe-test-servos.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, Navigator, bot, left, right, sonar, scanner, servos,
   expandWhich, reverseDirMap, scale;
 

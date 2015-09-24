@@ -29,7 +29,7 @@ node eg/temperature-ds18b20.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 five.Board().on("ready", function() {
   // This requires OneWire support using the ConfigurableFirmata

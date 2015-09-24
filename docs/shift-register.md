@@ -29,7 +29,7 @@ node eg/shift-register.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 // For use with 74HC595 chip

@@ -18,7 +18,7 @@ node eg/micromagician-motor.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 var board = new five.Board({ debug: true});
 

@@ -29,7 +29,7 @@ node eg/led-matrix.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 board.on("ready", function() {
@@ -55,7 +55,7 @@ board.on("ready", function() {
 
   matrix.on();
 
-  var msg = "johnny-five".split("");
+  var msg = "johnny-five-electron".split("");
 
   // Display each letter for 1 second
   function next() {

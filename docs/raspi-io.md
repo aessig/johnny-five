@@ -31,7 +31,7 @@ node eg/raspi-io.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var Raspi = require("raspi-io");
 var board = new five.Board({
   io: new Raspi()

@@ -31,7 +31,7 @@ node eg/motion-gp2y0d805z0f.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 board.on("ready", function() {

@@ -19,7 +19,7 @@ node eg/magnetometer-north.js
 
 ```javascript
 var chalk = require("chalk"),
-  five = require("johnny-five"),
+  five = require("johnny-five-electron"),
   board, servo, mag, count, dirs, isNorth, isSeeking, last;
 
 board = new five.Board();

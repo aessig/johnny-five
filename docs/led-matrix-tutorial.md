@@ -31,7 +31,7 @@ node eg/led-matrix-tutorial.js
 ```javascript
 var temporal = require("temporal");
 var readline = require("readline");
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board({
   repl: false
 });

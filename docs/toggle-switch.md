@@ -29,7 +29,7 @@ node eg/toggle-switch.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, toggleSwitch;
 
 board = new five.Board();

@@ -34,7 +34,7 @@ node eg/phoenix.js
  *
  */
 
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   temporal = require("temporal"),
   board, ph = {
     state: "sleep"

@@ -18,7 +18,7 @@ node eg/motor-PCA9685.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, motor, led;
 
 board = new five.Board();

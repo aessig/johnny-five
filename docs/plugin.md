@@ -56,7 +56,7 @@ module.exports = function(five) {
 /**
  *  To use the plugin in a program:
  *
- *  var five = require("johnny-five");
+ *  var five = require("johnny-five-electron");
  *  var Component = require("component")(five);
  *
  *

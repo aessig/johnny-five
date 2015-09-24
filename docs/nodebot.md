@@ -20,7 +20,7 @@ node eg/nodebot.js
 ```javascript
 var five, temporal, Nodebot;
 
-five = require("johnny-five");
+five = require("johnny-five-electron");
 /**
  * Any time-based scheduling
  * should use temporal

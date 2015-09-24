@@ -18,7 +18,7 @@ node eg/tinkerkit-thermistor.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 new five.Board().on("ready", function() {
   new five.Temperature({controller: "TINKERKIT", pin: "I0"}).on("change", function() {

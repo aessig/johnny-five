@@ -20,7 +20,7 @@ node eg/pcduino-io.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var pcDuino = require("pcduino-io");
 var board = new five.Board({
   io: new pcDuino()

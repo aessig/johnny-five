@@ -8,7 +8,7 @@ node eg/gripper.js
 <!--remove-end-->
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   compulsive = require("compulsive"),
   wrist, gripper, motion, repeater;
 

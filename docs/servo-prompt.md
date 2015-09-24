@@ -31,7 +31,7 @@ node eg/servo-prompt.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var readline = require("readline");
 
 var rl = readline.createInterface({

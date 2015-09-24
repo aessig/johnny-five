@@ -32,7 +32,7 @@ node eg/led-digits-clock-galileo.js
 
 ```javascript
 var moment = require("moment");
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var Galileo = require("galileo-io");
 var board = new five.Board({
   io: new Galileo()

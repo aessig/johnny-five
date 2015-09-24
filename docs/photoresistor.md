@@ -29,7 +29,7 @@ node eg/photoresistor.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, photoresistor;
 
 board = new five.Board();

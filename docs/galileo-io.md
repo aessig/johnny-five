@@ -31,7 +31,7 @@ node eg/galileo-io.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var Galileo = require("galileo-io");
 var board = new five.Board({
   io: new Galileo()

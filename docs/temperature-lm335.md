@@ -29,7 +29,7 @@ node eg/temperature-lm335.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 five.Board().on("ready", function() {
   var temperature = new five.Temperature({

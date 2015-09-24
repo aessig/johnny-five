@@ -29,7 +29,7 @@ node eg/sonar.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, sonar;
 
 board = new five.Board();

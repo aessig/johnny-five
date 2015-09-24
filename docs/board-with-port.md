@@ -31,7 +31,7 @@ node eg/board-with-port.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 // Johnny-Five will try its hardest to detect the port for you,
 // however you may also explicitly specify the port by passing

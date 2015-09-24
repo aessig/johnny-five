@@ -33,7 +33,7 @@ node eg/led-rgb.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 
 five.Board().on("ready", function() {

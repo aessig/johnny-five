@@ -33,7 +33,7 @@ node eg/shift-register-seven-segment.js
  * This example uses a single seven-segment display (common anode) and a
  * 74HC595 shift register. See docs/breadboard/seven-segment.png for wiring.
  */
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 board.on("ready", function() {

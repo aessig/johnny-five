@@ -4,7 +4,7 @@
 // bot in action here: https://www.youtube.com/watch?v=i6n4CwqQer0
 
 var fs = require("fs"),
-  five = require("johnny-five"),
+  five = require("johnny-five-electron"),
   ReflectArray = require("./reflect.array"),
   board = new five.Board();
 

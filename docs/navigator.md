@@ -18,7 +18,7 @@ node eg/navigator.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   __ = require("fn"),
   board, Navigator, navigator, servos,
   pivotExpansion, directionMap, scale;

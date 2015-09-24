@@ -29,7 +29,7 @@ node eg/kinect-arm-controller.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 /**
  * PVector is a slightly-ported version of
  * Processing's PVector.

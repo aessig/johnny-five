@@ -29,7 +29,7 @@ node eg/sensor-fsr.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   fsr, led;
 
 (new five.Board()).on("ready", function() {

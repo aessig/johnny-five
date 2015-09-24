@@ -34,7 +34,7 @@ node eg/led-rgb-intensity.js
 
 ```javascript
 var temporal = require("temporal");
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var board = new five.Board();
 
 board.on("ready", function() {

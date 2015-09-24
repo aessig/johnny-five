@@ -18,7 +18,7 @@ node eg/tinkerkit-accelerometer.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, accel;
 
 board = new five.Board();

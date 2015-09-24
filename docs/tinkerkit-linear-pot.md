@@ -18,7 +18,7 @@ node eg/tinkerkit-linear-pot.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 new five.Board().on("ready", function() {
   new five.Sensor("I0").scale(0, 255).on("data", function() {

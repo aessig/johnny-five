@@ -12,7 +12,7 @@ node eg/joystick-motor-led.js
 <!--remove-end-->
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, joystick, motor, led;
 
 board = new five.Board();

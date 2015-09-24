@@ -14,7 +14,7 @@ node eg/led-rgb-PCA9685.js
 <!--remove-end-->
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 
 five.Board().on("ready", function() {

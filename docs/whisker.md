@@ -21,7 +21,7 @@ node eg/whisker.js
 var Change, five;
 
 Change = require("../eg/change");
-five = require("johnny-five");
+five = require("johnny-five-electron");
 
 new five.Boards(["control", "nodebot"]).on("ready", function(boards) {
   var controllers, changes, nodebot, whiskers, opposing, directions, speed;

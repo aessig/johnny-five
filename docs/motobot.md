@@ -18,7 +18,7 @@ node eg/motobot.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var keypress = require("keypress");
 var board = new five.Board();
 

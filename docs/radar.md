@@ -18,7 +18,7 @@ node eg/radar.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   child = require("child_process"),
   http = require("http"),
   socket = require("socket.io"),

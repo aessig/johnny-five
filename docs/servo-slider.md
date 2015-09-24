@@ -29,7 +29,7 @@ node eg/servo-slider.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, slider, servo, scalingRange;
 
 board = new five.Board();

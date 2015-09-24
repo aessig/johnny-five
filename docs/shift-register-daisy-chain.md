@@ -38,7 +38,7 @@ node eg/shift-register-daisy-chain.js
  * See docs/breadboard/seven-segment-daisy-chain.png
  * for the wiring.
  */
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   async = require("async"),
   _ = require("lodash");
 

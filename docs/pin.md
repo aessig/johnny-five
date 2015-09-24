@@ -29,7 +29,7 @@ node eg/pin.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 var temporal = require("temporal");
 var board = new five.Board();
 

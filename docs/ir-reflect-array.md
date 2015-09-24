@@ -18,7 +18,7 @@ node eg/ir-reflect-array.js
 
 
 ```javascript
-var five = require("johnny-five");
+var five = require("johnny-five-electron");
 
 five.Board().on("ready", function() {
   var calibrating = true;

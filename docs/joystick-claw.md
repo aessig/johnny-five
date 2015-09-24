@@ -12,7 +12,7 @@ node eg/joystick-claw.js
 <!--remove-end-->
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, claw, joystick;
 
 board = new five.Board();

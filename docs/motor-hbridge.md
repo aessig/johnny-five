@@ -37,7 +37,7 @@ node eg/motor-hbridge.js
   to high. This is for controllers that do not have that feature.
 */
 
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board = new five.Board();
 
 board.on("ready", function() {

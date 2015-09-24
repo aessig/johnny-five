@@ -31,7 +31,7 @@ node eg/servo-animation-leg.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   ph = {
     state: "sleep"
   };

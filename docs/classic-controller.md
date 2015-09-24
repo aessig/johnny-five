@@ -18,7 +18,7 @@ node eg/classic-controller.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   board, nunchuk;
 
 board = new five.Board();

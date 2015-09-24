@@ -18,7 +18,7 @@ node eg/tinkerkit-joystick.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   Change = require("../eg/change");
 
 new five.Board().on("ready", function() {

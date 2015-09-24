@@ -29,7 +29,7 @@ node eg/button-bumper.js
 
 
 ```javascript
-var five = require("johnny-five"),
+var five = require("johnny-five-electron"),
   bumper, led;
 
 five.Board().on("ready", function() {
